@@ -1,0 +1,1 @@
+web: gunicorn iscope.wsgi:app
