@@ -1,1 +1,1 @@
-web: gunicorn iscope.wsgi:app
+web: gunicorn econscope.wsgi:app
