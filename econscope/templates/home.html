@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+{% autoescape false %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    {% include "static/header.html" %}
+</head>
+<body id="page-top">
+        <!-- Navigation-->
+        {% include "static/navigation.html" %}
+        <!-- Masthead-->
+        {% include "static/masthead.html" %}
+        <!-- About Section-->
+        {% include "static/about.html" %}
+        <!-- Coronavirus Cases Graph-->
+        {% include "static/cases.html" %}
+        <!-- U.S. Economic Analysis-->
+        {% include "static/analysis.html" %}
+        {% include "static/modals.html" %}
+        <!-- Stay Safe-->
+        {% include "static/safety.html" %}
+        <!-- Contact-->
+        {% include "static/contact.html" %}
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © econScope 2020 from MZWU</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+    {% include "static/footer.html" %}
+{% endautoescape %}
+</body>
+</html>
