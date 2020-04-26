@@ -28,6 +28,11 @@ def home_view():
     return render_template('home.html', web_data=web_data)
 
 
+@app.route("/weekly-update")
+def weekly_update():
+    return render_template('update.html', web_data=web_data)
+
+
 @app.route("/assets/<path:suburl>")
 def get_assets(suburl):
     dirs = suburl.split("/")
