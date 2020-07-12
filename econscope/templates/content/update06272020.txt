@@ -1,6 +1,6 @@
 <!-- Title Divider-->
 <div class="divider-custom">
-   <h2 class="text-center text-secondary mb-0">Week of 6/20/2020</h2>
+   <h2 class="text-center text-secondary mb-0">Week of 6/27/2020</h2>
 </div>
 <!-- Update Section Content-->
    <div class="row">
