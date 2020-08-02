@@ -3,7 +3,6 @@ import os
 import econscope.data.data as econdata
 
 app = Flask(__name__)  # instantiate Flask with current name
-
 pwd = os.path.dirname(__file__)  # get directory name of current file
 
 
@@ -26,6 +25,11 @@ web_data = {
 @app.route("/")
 def home_view():
     return render_template('home.html', web_data=web_data)
+
+
+@app.route("/znew")
+def new_home():
+    return render_template('znew/home.html')
 
 
 @app.route("/weekly-update")
