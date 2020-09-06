@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% autoescape false%}
+  {% include "header.html" %}
+  {% endautoescape %}
+
+  <title>GDP | econScope</title>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% autoescape false%}
+  {% include "navigation.html" %}
+  {% endautoescape %}
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">COVID-19
+      <small>GDP Changes</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">COVID-19 GDP Changes</li>
+    </ol>
+
+    <!-- Portfolio Item Row -->
+    <div>
+        <h2 class="my-3" style="text-align:center;">GDP Changes</h2>
+
+      <hr>
+
+        <!-- Date/Time -->
+        <p style="text-align:center;">Posted on April 25, 2020; Last updated on August 4, 2020 by <a href="/about">econScope</a></p>
+
+        <hr>
+      <br>
+
+      <div>
+        <a href="https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-advance-estimate-and-annual-update">
+          <img src="templates/img/analysis/gdp.png" width="750" height="360" hspace="200" vspace="20" align="left">
+          </a>
+        <!--<img class="img-fluid" src="http://placehold.it/750x500" alt="">-->
+      </div>
+
+      <div >
+          <p class="lead">The COVID-19 pandemic undoubtedly took a toll on economic activity around the globe, which is made apparent through recent GDP measures and changes. </p>
+          <p>Gross Domestic Product (GDP) is defined as the total monetary value of all final goods and services produced within a certain time period. GDP is usually calculated annually to indicate the economic wellbeing of countries around the world. However, social scientists argue that GDP does not take into account several factors that could significantly affect a nation’s welfare: sustainability, health, happiness, education, housing conditions, income, and more. Nevertheless, economists continue to look toward GDP measurements to assess a country’s economic state. Nominal GDP measures raw data, whereas real GDP considers inflation by adjusting the raw measurements using a GDP price deflator. Economists therefore tend to use real GDP measurements to distinguish real growth from one year to the next. Another factor to be considered is country population. To tackle the disparity between country populations, statisticians divide a country’s GDP by its total population, yielding GDP per capita. After taking such factors into considerations, economists tend to agree that GDP provides a sturdy standpoint when comparing the economic health of countries.</p>
+          <p>Economic shock can be measured using shock geometry, as explained by the Harvard Business Review. When compared to the projected path of GDP growth, economic recessions can display one of three trends: V-shape, U-shape, and L-shape. During the 2008 financial crisis, Canada exhibited a V-shape trend. Canada was hindered by the financial crisis such that its GDP dropped, but credit continued to flow through the market and its GDP bounced back soon after. In V-shape trends, economic output is offset but growth eventually rebounds to its original projected path. During that time, the U.S. displayed a U-shape trend. U.S. GDP dropped, experienced a positive sloping such that its growth rate was reestablished, but the country never regained the output that is shown by a gap between the projected and actual growth paths. Finally, Greece experienced a L-shape trend, the most extreme of the three paths. Greece’s growth rate declined, showing an ever-increasing gap between its original and actual paths. Greece was significantly impacted by the financial crisis, with its economic assets being repeatedly damaged.</p>
+          <p>Regarding the current COVID-19 crisis, economists are unsure whether to expect a V-shape or U-shape trend. In the U.S., reported state losses are saying a lot about the U.S. economy. As of early April, California is losing 31.5% of its $8.8 billion daily GDP. Florida, Georgia, Illinois, Maryland, Massachusetts, Michigan, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Texas, Virginia, and Washington -- which comprise almost 70% of total U.S. daily GDP -- are losing a combined daily GDP of $12.5 billion. Thirty other states, in addition to Washington, D.C., are losing a cumulative daily GDP of $4.9 billion. As a result of business closures, LA County declined 35% in daily output, Manhattan dropped 25%, and Cook County decreased 30%; these consequences alone have resulted in a 10% drop in daily national GDP. According to the CBO, federal debt is expected to reach 101% of GDP by the end of fiscal 2020, with national GDP decreasing by 5.6%. Although countries are being hit with tragic losses, most economists expect output to increase in the fall of 2020. In summer of 2020, economists and officials were hopeful for a V-shaped GDP rebound, but the recent surge in COVID-19 cases coupled with sustained low economic activity suggests that the recovery path will be longer than initially estimated. The Federal Reserve has provided trillions in stimulus aid for the U.S. economy, but there comes a point when the Fed will reach the capacity of its power and the future of the U.S. economy will depend on the creation of a vaccine.</p>
+        <h3 class="my-3">Sources</h3>
+
+        <ul>
+          <li>Harvard Business Review</li>
+          <li>New York Times</li>
+          <li>U.S. Bureau of Economic Analysis</li>
+          <li>Wall Street Journal</li>
+          <li>Washington Post</li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Related Articles</h3>
+
+    <div class="row">
+
+      <div class="col">
+        <a href="/covid19-gvmt-stimulus">
+          <img class="img-fluid" src="templates/img/analysis/previewGovernmentStimulusPrograms.png" alt="">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="/covid19-unemployment">
+          <img class="img-fluid" src="templates/img/analysis/previewUnemployment.png" alt="">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="/covid19-business">
+          <img class="img-fluid" src="templates/img/analysis/previewBusinesses.png" alt="">
+        </a>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+<br>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; econScope 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="templates/vendor/jquery/jquery.min.js"></script>
+  <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

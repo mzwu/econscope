@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% autoescape false%}
+  {% include "header.html" %}
+  {% endautoescape %}
+
+  <title>404 Page Not Found | econScope</title>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% autoescape false%}
+  {% include "navigation.html" %}
+  {% endautoescape %}
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">404
+      <small>Page Not Found</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">404</li>
+    </ol>
+
+    <div class="jumbotron">
+      <h1 class="display-1">404</h1>
+      <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          Updates
+          <ul>
+            <li>
+              <a href="/updates-2020-august">2020</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          COVID-19
+          <ul>
+            <li>
+              <a href="/covid19-cases-tracker">Cases Live Tracker</a>
+            </li>
+            <li>
+              <a href="/covid19-economic-analysis">Economic Analysis</a>
+            </li>
+            <li>
+              <a href="/covid19-safety-info">Safety Information</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+        </li>
+      </ul>
+    </div>
+    <!-- /.jumbotron -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; econScope 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="templates/vendor/jquery/jquery.min.js"></script>
+  <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

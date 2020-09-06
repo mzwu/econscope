@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% autoescape false%}
+  {% include "header.html" %}
+  {% endautoescape %}
+
+  <title>Businesses | econScope</title>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% autoescape false%}
+  {% include "navigation.html" %}
+  {% endautoescape %}
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">COVID-19
+      <small>Businesses</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">COVID-19 Businesses</li>
+    </ol>
+
+    <!-- Portfolio Item Row -->
+    <div>
+        <h2 class="my-3" style="text-align:center;">Businesses</h2>
+
+      <hr>
+
+        <!-- Date/Time -->
+        <p style="text-align:center;">Posted on April 25, 2020; Last updated on August 4, 2020 by <a href="/about">econScope</a></p>
+
+        <hr>
+      <br>
+
+      <div>
+        <a href="https://www.wsj.com/articles/small-businesses-brace-for-prolonged-crisis-short-on-cash-and-customers-11595433150">
+          <img src="templates/img/analysis/business.png" width="590" height="430" hspace="20" vspace="20" align="left">
+          </a>
+        <!--<img class="img-fluid" src="http://placehold.it/750x500" alt="">-->
+      </div>
+
+      <div >
+          <p class="lead">The COVID-19 pandemic has resulted in harsh impacts on businesses and industries of all sizes. </p>
+          <p>Initially, airlines received the hardest hit. Afraid to contract the virus from select parts of the world such as Asia and Europe, civilians were reluctant to travel far from their local communities. This was especially detrimental to airlines since COVID-19 cases started to peak just as spring break rolled around -- a time when airlines are typically projected to have the most activity. Later on, as people around the world began a period of self-isolation, small businesses such as restaurants saw a large decrease in sales. As U.S. states began lockdowns, other “nonessential” businesses such as gyms, movie theaters, public parks, and boutiques began to lose significant activity. Especially in the face of home quarantine, use of delivery services has increased dramatically. Although Instacart, Amazon, and Whole Foods have been sustained through the COVID-19 crisis, their workers have protested for their rights to stay home as well. Arguably most importantly, hospitals around the world have been flooded up to their maximum capacity. Medical providers and health workers have been present throughout each wave of cases. Recently, lack of medical supplies has proved to signify imminent danger if conditions do not take a turn for the better.</p>
+          <p>In order to protect the economy, the Federal Reserve slashed interest rates to zero in mid-March. They also sought to buy $700 billion in government and mortgage-related bonds to prepare for future emergencies due to COVID-19. These preventative measures encourage struggling small businesses to take loans and maintain economic activity. On March 27, President Trump signed a $2 trillion stimulus package which is allocated toward the following: inexpensive loans for eligible companies, aiding the Small Business Administration in supporting small businesses, and programs that will buy debt secondhand from large businesses. Namely, such programs include the Paycheck Protection Program, Primary Market Corporate Credit Facility, Secondary Market Corporate Credit Facility, Main Street Lending Program, and other facilities to enhance credit flow to businesses and households. On April 3, Treasury Secretary Steven Mnuchin reported $4 million reserved for small business loans, and requested $250 billion more on April 7 for a small business money lending program. From these action items, we can tell that small businesses are an integral part of the U.S. economy and must be supported if the country is expected to recover from the current crisis.</p>
+          <p>Immediately after the 9/11 terrorist attack, airlines stopped flying, causing U.S. output to decrease by $111 billion. For COVID-19, U.S. output decreased by $350 billion after only 3 weeks of state-imposed lockdowns. Both events resulted in deep damage toward the airline industry, but the detriment during the COVID-19 outbreak has been three times worse. We can also compare the COVID-19 crisis to the 2008 U.S. financial crisis. The 2008 crisis began with a demand-side shock, specifically the inability to pay off home loans, which resulted in decreased spending and decreased revenue for businesses. In contrast, the COVID-19 crisis caused supply-side closures, which in turn hurt individuals and households. As closures spread across the U.S., businesses’ financial performances and earnings forecasts were greatly impacted, leaving business owners and employees with an uncertain future. During the months of May and June of 2020, business activity revived as states began to gradually lift restrictions and citizens began to emerge from months of social isolation. However, July statistics demonstrated a surge in COVID-19 cases, causing businesses to resort to closures once again. Officials remark that the path to the pre-pandemic economy depends on the formulation of a vaccine; otherwise, people will continue to feel unsafe outside of their homes, continuing the cycle of low business activity and closures.</p>
+        <h3 class="my-3">Sources</h3>
+
+        <ul>
+          <li>Federal Reserve</li>
+          <li>New York Times</li>
+          <li>Wall Street Journal</li>
+          <li>Washington Post</li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Related Articles</h3>
+
+    <div class="row">
+
+      <div class="col">
+        <a href="/covid19-gvmt-stimulus">
+          <img class="img-fluid" src="templates/img/analysis/previewGovernmentStimulusPrograms.png" alt="">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="/covid19-unemployment">
+          <img class="img-fluid" src="templates/img/analysis/previewUnemployment.png" alt="">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="/covid19-gdp">
+          <img class="img-fluid" src="templates/img/analysis/previewGDP.png" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+<br>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; econScope 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="templates/vendor/jquery/jquery.min.js"></script>
+  <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
