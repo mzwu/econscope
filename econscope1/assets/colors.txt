@@ -1,5 +1,0 @@
-primary #88b8cf
-hover #709db3
-border #578094
-darker #4d768a
-lighter #92c5de
