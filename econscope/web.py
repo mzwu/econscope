@@ -85,6 +85,11 @@ def contact_me():
     return render_template('contact.html')
 
 
+@app.route("/updates-2020-november")
+def weekly_updates_november_2020():
+    return render_template('updates/2020/updates2020november.html')
+
+
 @app.route("/updates-2020-october")
 def weekly_updates_october_2020():
     return render_template('updates/2020/updates2020october.html')
@@ -118,6 +123,11 @@ def weekly_updates_may_2020():
 @app.route("/updates-2020-april")
 def weekly_updates_april_2020():
     return render_template('updates/2020/updates2020april.html')
+
+
+@app.route('/updates-2020-1107')
+def update_11072020():
+    return render_template("updates/2020/11072020.html")
 
 
 @app.route('/updates-2020-1031')
