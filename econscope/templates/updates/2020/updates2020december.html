@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% autoescape false%}
+  {% include "header.html" %}
+  {% endautoescape %}
+
+  <title>Weekly Updates | econScope</title>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% autoescape false%}
+  {% include "navigation.html" %}
+  {% endautoescape %}
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Weekly Updates
+      <small>2020</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Weekly Updates 2020</li>
+    </ol>
+
+    <!-- Blog Post -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="/updates-2020-1205">
+              <img class="img-fluid rounded" src="templates/img/updates/2020/lending.png" height="230" width="423" hspace="33"alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="card-title">Week of 12/5/2020</h2>
+            <p class="card-text">Read about the extension of lending programs and lack thereof, economic expectations of the next administration, weekly unemployment claims, and more.</p>
+            <a href="/updates-2020-1205" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Posted on December 6, 2020 by
+        <a href="/about">econScope</a>
+      </div>
+    </div>
+
+
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center mb-4">
+      <li class="page-item">
+        <a class="page-link" href="/updates-2020-november">&larr; Older</a>
+      </li>
+      <li class="page-item disabled">
+        <a class="page-link" href="#">Newer &rarr;</a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; econScope 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="templates/vendor/jquery/jquery.min.js"></script>
+  <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
