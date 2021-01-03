@@ -90,9 +90,9 @@ def contact_me():
     return render_template('contact.html')
 
 
-@app.route("/updates-2020-january")
-def weekly_updates_january_2020():
-    return render_template('updates/2020/2021january.html')
+@app.route("/updates-2021-january")
+def weekly_updates_january_2021():
+    return render_template('updates/2021/2021january.html')
 
 
 @app.route("/updates-2020-december")
