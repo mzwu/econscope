@@ -70,6 +70,11 @@ def gdp():
     return render_template('covid/analysis/gdp.html')
 
 
+@app.route("/covid19-dec2020-stimulus")
+def dec2020_stimulus():
+    return render_template('covid/analysis/dec2020stimulus.html')
+
+
 @app.route("/covid19-safety-info")
 def safety_info():
     return render_template('covid/safetyinfo.html')
@@ -83,6 +88,11 @@ def about_me():
 @app.route("/contact")
 def contact_me():
     return render_template('contact.html')
+
+
+@app.route("/updates-2020-january")
+def weekly_updates_january_2020():
+    return render_template('updates/2020/2021january.html')
 
 
 @app.route("/updates-2020-december")
