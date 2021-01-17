@@ -140,6 +140,11 @@ def weekly_updates_april_2020():
     return render_template('updates/2020/updates2020april.html')
 
 
+@app.route('/updates-2021-0116')
+def update_01162021():
+    return render_template("updates/2021/01162021.html")
+
+
 @app.route('/updates-2021-0109')
 def update_01092021():
     return render_template("updates/2021/01092021.html")
