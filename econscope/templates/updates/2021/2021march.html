@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {% autoescape false%}
+  {% include "header.html" %}
+  {% endautoescape %}
+
+  <title>Weekly Updates | econScope</title>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% autoescape false%}
+  {% include "navigation.html" %}
+  {% endautoescape %}
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Weekly Updates
+      <small>2021</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Weekly Updates 2021</li>
+    </ol>
+
+    <!-- Blog Post -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="/updates-2021-0306">
+              <img class="img-fluid rounded" src="templates/img/updates/2021/debt.png" height="230" width="423" hspace="33" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="card-title">Week of 3/6/2021</h2>
+            <p class="card-text">Read about the U.S.'s accumulation of massive debt, the U.K.'s efforts to make up for recent debt, and changes in U.S. economic indicators and factors.</p>
+            <a href="/updates-2021-0306" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Posted on March 7, 2021 by
+        <a href="/about">econScope</a>
+      </div>
+    </div>
+
+    <!-- Blog Post
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="/updates-2020-1226">
+              <img class="img-fluid rounded" src="templates/img/updates/2020/stimulusbill.png" height="230" width="423" hspace="33" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="card-title">Week of 12/26/2020</h2>
+            <p class="card-text">This week's update covers actions regarding the newly proposed $900 federal stimulus bill, as well as its potential effect on unemployment across the nation.</p>
+            <a href="/updates-2020-1226" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Posted on December 20, 2020 by
+        <a href="/about">econScope</a>
+      </div>
+    </div> -->
+
+
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center mb-4">
+      <li class="page-item">
+        <a class="page-link" href="/updates-2021-february">&larr; Older</a>
+      </li>
+      <li class="page-item disabled">
+        <a class="page-link" href="#">Newer &rarr;</a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; econScope 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="templates/vendor/jquery/jquery.min.js"></script>
+  <script src="templates/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
