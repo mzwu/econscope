@@ -90,6 +90,21 @@ def contact_me():
     return render_template('contact.html')
 
 
+@app.route("/research")
+def research():
+    return render_template('research/research.html')
+
+
+@app.route("/research-mask-adherence")
+def research_mask_adherence():
+    return render_template('research/maskadherence.html')
+
+
+@app.route("/research-tech-growth")
+def research_tech_growth():
+    return render_template('research/techgrowth.html')
+
+
 @app.route("/updates-2021-may")
 def weekly_updates_may_2021():
     return render_template('updates/2021/2021may.html')
